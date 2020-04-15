@@ -1,3 +1,4 @@
+App is created based on course https://www.udemy.com/course/the-complete-junior-to-senior-web-developer-roadmap/. 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
