@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Sega';
+    src: url('./SEGA.TTF') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+h1 {
+    font-family: 'Sega';
+    font-size: 3rem;
+    font-weight: 200;
+    color: aquamarine;
+}
