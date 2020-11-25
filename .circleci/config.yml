@@ -4,4 +4,12 @@ orbs:
 workflows:
   node-tests:
     jobs:
-      - node/test
+       build:
+          executor:
+            name: node/default
+          steps:
+            - checkout
+            - node/with-cache:
+                steps:
+                  - run: yarn install
+            - run: yarn run test
